@@ -17,7 +17,7 @@ def encr (plain,key) : #encrypting block
     return cipher
 
 def decr (cipher,key) : #decrypting block
-    cipher = cihper.lower()
+    cipher = cipher.lower()
     plain = ""
     for state in cipher :
         #condition for special character
